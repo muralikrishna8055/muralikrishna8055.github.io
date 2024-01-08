@@ -465,7 +465,7 @@ transition: .5 ease;
 
 
 
-@media (max-width: 1200px){
+@media (max-width: 1400px){
     html{
         font-size: 55%;
     }
@@ -482,7 +482,7 @@ transition: .5 ease;
     }
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1250px){
     .header{
         padding: 2rem 3%;
       
@@ -496,11 +496,11 @@ transition: .5 ease;
     }
 
     .home .profession-container .overlay{
-        right: -15rem;
+        right: -20rem;
     }
 }
 
-@media (max-width: 991px){
+@media (max-width: 1200px){
 
     .navbar a:nth-child(1),
     .navbar a:nth-child(2){
@@ -527,7 +527,7 @@ transition: .5 ease;
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 850px){
     #menu-icon{
         display: block;
 
