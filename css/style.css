@@ -187,7 +187,27 @@ border-radius: 50%;
 display: flex;
 justify-content: center;
 align-items: center;
+animation: professionRotate 13s ease-out infinite;
 }
+
+@keyframes professionRotate{
+    0%,20%{
+        transform: rotate(0deg);
+    }
+    25%,45%{
+        transform: rotate(-90deg);
+    }
+    50%,70%{
+        transform: rotate(-180deg);
+    }
+    75%,95%{
+        transform: rotate(-270deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
 .home .profession-box .profession{
 position: absolute;
 display: flex;
@@ -644,4 +664,40 @@ transition: .5 ease;
     .portfolio .portfolio-container{
         grid-template-columns: 1fr;
     }
-}
+ }
+    @media (max-width: 450px){
+        html{
+            font-size: 50%;
+        }
+        .home{
+            padding:  0 3% 30rem;
+        }
+        .home .profession-box .profession:nth-child(1) {
+            transform: rotate(-90deg) translate(-110px, -220px);
+        }
+        .home .profession-box .profession:nth-child(2) {
+            transform: rotate(0deg) translate(5px, -335px);
+        }
+        .home .profession-box .profession:nth-child(4) {
+            transform: rotate(90deg) translate(-105px, -440px);
+        }
+        .home .profession-box .profession:nth-child(4) {
+            transform: rotate(180deg) translate(-220px, -335px);
+        }
+        
+    }
+
+    @media (max-width: 365px){
+        .about-img img{
+            width: 90vw;
+        }
+
+        .footer{
+            flex-direction: column-reverse;
+        }
+
+        .footer p{
+            text-align: center;
+            margin-top: 2rem;
+        }
+    }
