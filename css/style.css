@@ -665,7 +665,9 @@ transition: .5 ease;
         grid-template-columns: 1fr;
     }
  }
-    @media (max-width: 450px){
+
+
+    @media (max-width: 350px){
         html{
             font-size: 50%;
         }
