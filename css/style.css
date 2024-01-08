@@ -465,7 +465,7 @@ transition: .5 ease;
 
 
 
-@media (max-width: 1400px){
+@media (max-width: 1200px){
     html{
         font-size: 55%;
     }
@@ -482,7 +482,7 @@ transition: .5 ease;
     }
 }
 
-@media (max-width: 1300px){
+@media (max-width: 1024px){
     .header{
         padding: 2rem 3%;
       
@@ -500,7 +500,7 @@ transition: .5 ease;
     }
 }
 
-@media (max-width: 1150px){
+@media (max-width: 991px){
 
     .navbar a:nth-child(1),
     .navbar a:nth-child(2){
@@ -527,7 +527,7 @@ transition: .5 ease;
     }
 }
 
-@media (max-width: 900px){
+@media (max-width: 768px){
     #menu-icon{
         display: block;
 
@@ -667,7 +667,7 @@ transition: .5 ease;
  }
 
 
-    @media (max-width: 350px){
+    @media (max-width: 450px){
         html{
             font-size: 50%;
         }
