@@ -485,10 +485,12 @@ transition: .5 ease;
 @media (max-width: 1024px){
    
     
-  /* .header{
+/* .header{
         padding: 2rem 3%;
       
-    }*/
+    }
+*/
+    
     section{
         padding: 10rem 3% 2rem;
     }
@@ -538,8 +540,10 @@ transition: .5 ease;
         display: block;
 
     }
+   
+    
     .navbar{
-        position: absolute;
+        position: fixed;
         top:100%;
         left: 0;
         width: 100%;
@@ -549,6 +553,7 @@ transition: .5 ease;
         box-shadow: 0 .5rem 1rem rgba(0,0,0, .1);
         display: none;
     }
+    
     .navbar.active{
         display: block;
     }
@@ -575,7 +580,7 @@ transition: .5 ease;
     }
 
     .home{
-        padding: 0 3% 23rem;
+      padding: 0 3% 23rem;
         justify-content: center;
         text-align: center;
     }
@@ -635,13 +640,15 @@ transition: .5 ease;
 }
 
     .home .profession-container .overlay{
-        position: fixed;
+        position: absolute;
         top: 94rem;
         left: 50%;
         right: 0;
         transform: rotate(90deg) translate(-50%,50%) scaleY(3);
         border-width: 23.9rem;
     }
+
+
     .about{
         flex-direction: column-reverse;
         text-align: center;
@@ -666,6 +673,8 @@ transition: .5 ease;
     }
 }
 
+
+
  @media (max-width: 617px){
    
     .portfolio .portfolio-container{
@@ -677,9 +686,14 @@ transition: .5 ease;
 
 
     @media (max-width: 450px){
-       /* html{
+/*
+      html{
             font-size: 45%;
+        }
+        .header{
+            padding: 2rem 3%;
         }*/
+
         .home{
             padding:  0 3% 30rem;
         }
@@ -701,7 +715,8 @@ transition: .5 ease;
             position: fixed;
             top: 94rem;
             left: 50%;
-            right: 0;}
+            right: 0;
+        }
     }
 
 
