@@ -3,7 +3,7 @@ let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
 menuIcon.onclick = () => {
-    menuIcon.classList.toggle('bx-x');
+    menuIcon.classList.toggle('bx-menu');
     navbar.classList.toggle('active');
 };
 
@@ -36,7 +36,7 @@ let header=document.querySelector('.header');
 header.classList.toggle('sticky',window.scrollY > 100);
 
     /*========== remove menu icon navbar when click navbar link (scroll) ==========*/
-menuIcon.classList.remove('bx-x');
+menuIcon.classList.remove('bx-menu');
 navbar.classList.remove('active');
 
 
