@@ -473,11 +473,11 @@ transition: .5 ease;
     .home .profession-container{
         height: 85.8rem;
     }
-    .home .portfolio-container .portfolio-box{
+    .home .profession-container .profession-box{
         right: -12rem;
         height: 85.8rem;
     }
-    .home.portfolio-container.overlay{
+    .home.profession-container.overlay{
         right: -9rem;
     }
 }
@@ -485,11 +485,11 @@ transition: .5 ease;
 @media (max-width: 1024px){
    
     
-/* .header{
+ .header{
         padding: 2rem 3%;
       
     }
-*/
+
     
     section{
         padding: 10rem 3% 2rem;
@@ -527,9 +527,15 @@ transition: .5 ease;
     .home .profession-container .overlay{
         right:-39.5rem;
     }
+    .home-img img{
+     display: none;
+    }
     .services,
     .portfolio{
         padding-bottom: 7rem;
+    }
+    .footer{
+     padding:2rem 3%;
     }
 }
 
@@ -543,7 +549,7 @@ transition: .5 ease;
    
     
     .navbar{
-        position: fixed;
+        position: absolute;
         top:100%;
         left: 0;
         width: 100%;
@@ -551,7 +557,7 @@ transition: .5 ease;
         background: var(--bg-color);
         border-top: .1rem solid rgba(0,0,0,.2);
         box-shadow: 0 .5rem 1rem rgba(0,0,0, .1);
-        display: none;
+        
     }
     
     .navbar.active{
