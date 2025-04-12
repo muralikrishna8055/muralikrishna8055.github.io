@@ -477,32 +477,33 @@ transition: .5 ease;
         right: -12rem;
         height: 85.8rem;
     }
-    .home.profession-container.overlay{
+    .home .profession-container.overlay{
         right: -9rem;
     }
 }
 
+/* Tablet view adjustments */
 @media (max-width: 1024px){
-   
-    
- .header{
+    /* Header padding */
+    .header {
         padding: 2rem 3%;
-      
     }
 
-    
-    section{
+    /* Section general padding */
+    section {
         padding: 10rem 3% 2rem;
     }
 
-    .home .profession-container .profession-box{
+    /* Home section profession box positioning */
+    .home .profession-container .profession-box {
         right: -22rem;
     }
 
-    .home .profession-container .overlay{
+    .home .profession-container .overlay {
         right: -20rem;
     }
 }
+
 
 
 
@@ -711,7 +712,7 @@ transition: .5 ease;
         .home .profession-box .profession:nth-child(2) {
             transform: rotate(0deg) translate(5px, -335px);
         }
-        .home .profession-box .profession:nth-child(4) {
+        .home .profession-box .profession:nth-child(3) {
             transform: rotate(90deg) translate(-105px, -440px);
         }
         .home .profession-box .profession:nth-child(4) {
