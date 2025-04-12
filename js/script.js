@@ -26,7 +26,7 @@ sections.forEach(sec => {
     if( top>= offset && top <offset + height){
         navLinks.forEach(links=>{
          links.classList.remove('active');
-         document.querySelector('header nav a[href*='+id+']').classList.add('active');
+         document.querySelector('header nav a[href*="'+id+'"]').classList.add('active');
         });
     };
 });
@@ -55,4 +55,4 @@ ScrollReveal({
 ScrollReveal().reveal('.home-content, .heading',{origin: 'top'});
 ScrollReveal().reveal('.services-container,.portfolio-box',{origin: 'bottom'});
 ScrollReveal().reveal('.home-content h1,.about-img img',{origin: 'left'});
-ScrollReveal().reveal('.home-content h3, .home-content p,about-content',{origin: 'right'});
+ScrollReveal().reveal('.home-content h3, .home-content p,.about-content',{origin: 'right'});
