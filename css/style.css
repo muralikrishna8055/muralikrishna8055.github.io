@@ -646,8 +646,8 @@ transition: .5 ease;
 }
 
     .home .profession-container .overlay{
-        position: absolute;
-        top: 94rem;
+        position: fixed;
+        top: 70rem;
         left: 50%;
         right: 0;
         transform: rotate(90deg) translate(-50%,50%) scaleY(3);
@@ -692,13 +692,13 @@ transition: .5 ease;
 
 
     @media (max-width: 450px){
-/*
+
       html{
-            font-size: 45%;
+            font-size: 50%;
         }
         .header{
             padding: 2rem 3%;
-        }*/
+        }
 
         .home{
             padding:  0 3% 30rem;
